@@ -248,7 +248,7 @@ translations:
   PARENLOCK_DISABLE_WARNING: パレンタルロックー無効やいびーん
   BUILD_DETAILS: ビルドオプション：
   PARENLOCK_INVALID_PASSWORD: エラー - くぬパスワードー使用なやびらん
-  ERR_VMC_FRAGMENTED_CONTINUE: VMC ％s ファイロー破損そーいびーん。 スロット ％d ぬメモリカードんかいたぶやびーが？
+  ERR_VMC_FRAGMENTED_CONTINUE: VMC %s ファイロー破損そーいびーん。 スロット %d ぬメモリカードんかいたぶやびーが？
   AUDIO_SETTINGS: オーディオ設定
   SFX: 効果音
   BOOT_SND: 起動音
