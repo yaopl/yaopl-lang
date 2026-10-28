@@ -584,3 +584,103 @@ translations:
   DEF_BGM_PATH_HINT:
   - untranslated
   - original: Set path to stream music for internal theme.
+  HINT_OSD_SETTINGS_LNG:
+  - untranslated
+  - original: Force a custom language configuration
+  OSD_SETTINGS_TVASPECT:
+  - untranslated
+  - original: Screen Size
+  FULL_SCREEN:
+  - untranslated
+  - original: Full Screen
+  OSD_SETTINGS_VMODE:
+  - untranslated
+  - original: Video Mode
+  SYSTEM_DEFAULT:
+  - untranslated
+  - original: System Default
+  HIGH:
+  - untranslated
+  - original: High
+  LOW:
+  - untranslated
+  - original: Low
+  XSENSITIVITY:
+  - untranslated
+  - original: Analog X-Axis Sensitivity
+  YSENSITIVITY:
+  - untranslated
+  - original: Analog Y-Axis Sensitivity
+  FILE_COUNT:
+  - untranslated
+  - original: 'Files found: %i'
+  CHEAT_SELECTION:
+  - untranslated
+  - original: Cheat Selection
+  HDD_HINT:
+  - untranslated
+  - original: Only one HDD allowed, enabling locks APA or GPT.
+  PARENLOCK_GAME:
+  - untranslated
+  - original: Parental Lock
+  PARENLOCK_GAME_HINT:
+  - untranslated
+  - original: Require the parental lock password to start this game.
+  PARENLOCK_GAME_NO_PASSWORD:
+  - untranslated
+  - original: Set a parental lock password, or this game will not be locked.
+  MMCE:
+  - untranslated
+  - original: MMCE
+  MMCE_GAMES:
+  - untranslated
+  - original: MMCE Games
+  MMCE_SETTINGS:
+  - untranslated
+  - original: MMCE Settings
+  MMCEMODE:
+  - untranslated
+  - original: MMCE Start Mode
+  MMCE_SLOT:
+  - untranslated
+  - original: MMCE Slot
+  MMCEIGR_SLOT:
+  - untranslated
+  - original: IGR Boot Card Slot(s)
+  HINT_MMCEIGR_SLOT:
+  - untranslated
+  - original: On IGR the card(s) in the selected slot(s) switch back to the boot card;
+      Auto = the slots where a card answered
+  MMCE_PREFIX:
+  - untranslated
+  - original: MMCE Prefix Path
+  MMCE_GAMEID:
+  - untranslated
+  - original: Send the game ID to the card
+  HINT_MMCE_GAMEID:
+  - untranslated
+  - original: The card switches to the game's own memory card, also for games on USB
+      or MX4SIO
+  MMCE_ERR_NO_CARD:
+  - untranslated
+  - original: No MMCE card answered.
+  MMCE_ERR_UL_PARTS:
+  - untranslated
+  - original: Games split into parts cannot be started from MMCE yet.
+  MMCE_NO_VMC_YET:
+  - untranslated
+  - original: VMCs are not used on MMCE yet; the game saves to the real memory card.
+  UDPBD_GAMES:
+  - untranslated
+  - original: UDPBD Games
+  HINT_UDPBD:
+  - untranslated
+  - original: Disk served by a PC over the LAN (udpbd-server). Uses the static PS2
+      IP; SMB is off while UDPBD is on.
+  NETWORK_UDPBD_ACTIVE:
+  - untranslated
+  - original: The network adapter is used by UDPBD. Turn UDPBD off and restart OPL
+      to use SMB or the network.
+  UDPBD_SMB_ACTIVE:
+  - untranslated
+  - original: The network adapter is used by SMB. Restart OPL to use UDPBD.
