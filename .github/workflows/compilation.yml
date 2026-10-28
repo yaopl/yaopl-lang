@@ -1,25 +1,42 @@
 name: CI-compile
 
+# Compiles every language against YAOPL's string list (lng_tmpl/_base.yml) and keeps the .lng files as
+# the compiled-languages artifact, for testing on a console.
 on:
   push:
   pull_request:
+  workflow_dispatch:
   repository_dispatch:
     types: [run_build]
 
 jobs:
   build:
     runs-on: ubuntu-latest
-    container: ghcr.io/ps2homebrew/ps2homebrew:main
+    # The same toolchain image as YAOPL's CI-compile.
+    container: ghcr.io/ps2homebrew/ps2homebrew@sha256:f92b526029a743bc30fb47d0af096f67d7e4e97e4019313f65508f6f6cdaaa91
     steps:
-      - uses: actions/checkout@v3
+      - uses: actions/checkout@v4
         with:
-          repository: ps2homebrew/Open-PS2-Loader
+          repository: yaopl/yaopl
 
-      - uses: actions/checkout@v3
+      - uses: actions/checkout@v4
         with:
           path: lng_src
 
       - name: Compile
+        run: make --trace languages
+
+      - name: Untranslated strings per language
         run: |
-          make --trace languages
-          sh ./lng_pack.sh
+          echo "| Language | Untranslated |" >> "$GITHUB_STEP_SUMMARY"
+          echo "| --- | --- |" >> "$GITHUB_STEP_SUMMARY"
+          for f in lng_src/[A-Z]*.yml; do
+            n=$(basename "$f" .yml)
+            [ "$n" = English ] && continue
+            echo "| $n | $(grep -c -- '- untranslated' "$f") |" >> "$GITHUB_STEP_SUMMARY"
+          done
+
+      - uses: actions/upload-artifact@v4
+        with:
+          name: compiled-languages
+          path: lng/*.lng
