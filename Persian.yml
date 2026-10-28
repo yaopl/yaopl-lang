@@ -285,8 +285,8 @@ translations:
   PARENLOCK_DISABLE_WARNING: .ﻗﻔﻞ واﻟﺪﻳﻦ ﻏﻴﺮﻓﻌﺎل ﺷﺪ
   BUILD_DETAILS: :ﮔﺰﻳﻨﻪ ﻫﺎی ﺳﺎﺧﺖ
   PARENLOCK_INVALID_PASSWORD: .ﻣﺸﻜﻠﻲ ﭘﻴﺶ آﻣﺪه - اﻳﻦ رﻣﺰ ﻋﺒﻮر ﻧﻤﻴﺘﻮاﻧﺪ اﺳﺘﻔﺎده ﺷﻮد
-  ERR_VMC_FRAGMENTED_CONTINUE: ؟ %d دﭼﺎر ﺑﻬﻢ رﻳﺨﺘﮕﻲ ﺷﺪه اﺳﺖ. اداﻣﻪ ﺑﺎ ﺣﺎﻓﻈﻪ ی ﻓﻴﺰﻳﻜﻲ
-    درﮔﺎه %s ﻓﺎﻳﻞ ﺣﺎﻓﻈﻪ ﻣﺠﺎزی
+  ERR_VMC_FRAGMENTED_CONTINUE: ؟ %s دﭼﺎر ﺑﻬﻢ رﻳﺨﺘﮕﻲ ﺷﺪه اﺳﺖ. اداﻣﻪ ﺑﺎ ﺣﺎﻓﻈﻪ ی ﻓﻴﺰﻳﻜﻲ
+    درﮔﺎه %d ﻓﺎﻳﻞ ﺣﺎﻓﻈﻪ ﻣﺠﺎزی
   AUDIO_SETTINGS: ﺗﻨﻈﻴﻤﺎت ﺻﺪا
   SFX:
   - untranslated
