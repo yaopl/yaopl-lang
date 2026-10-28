@@ -235,7 +235,7 @@ translations:
   CONFIRMATION_SETTINGS_UPDATE: Télécharger les régl. prédéfinis depuis Internet ?
   CUSTOMIZED_SETTINGS: Réglages personnalisés
   DOWNLOADED_DEFAULTS: Réglages prédéfinis
-  AUTO_START_IN_N_SECS: Lancement automatique dans %s…
+  AUTO_START_IN_N_SECS: Lancement automatique dans %i s…
   AUTOSTARTLAST: Lancement auto.
   HINT_AUTOSTARTLAST: En seconde(s), 0 pour désactiver le lancement automatique
   PS2LOGO: Logo PS2
