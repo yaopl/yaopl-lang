@@ -32,7 +32,8 @@ colon. Use `same` for a string that should stay in English (device names, for ex
 
 ## Translating
 
-1. Edit `<Language>.yml` (on GitHub: open the file, then the pencil icon) and open a pull request.
+1. Edit `<Language>.yml` (on GitHub: open the file, then the pencil icon) and open a pull request; its
+   template lists what to check.
 2. Keep `%s`, `%d`, `%i` and similar placeholders, in the same order. Keep the text short: the PS2 menu has
    little room, and long hints are cut off.
 3. Put the text in quotes if it contains a colon followed by a space, or starts with `%`, `[`, `{`, `'`
