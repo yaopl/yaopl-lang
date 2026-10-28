@@ -165,8 +165,8 @@ translations:
   VMC_FILE_EXISTS: Adunay VMC file
   VMC_FILE_ERROR: Dili balido nga file sa VMC, dili husto ang gidak-on
   VMC_FILE_NEW: Ang file sa VMC kinahanglan buhaton.
-  ERR_VMC_CONTINUE: Sayup sa pag-access sa VMC% s. Padayon sa Memory Card sa slot%
-    d?
+  ERR_VMC_CONTINUE: Sayup sa pag-access sa VMC %s. Padayon sa Memory Card sa slot
+    %d?
   AUTOREFRESH: Awtomatikong i-refresh
   ABOUT: Mahitungod sa
   DEVS: Mga coder
@@ -277,7 +277,7 @@ translations:
   CONFIRMATION_SETTINGS_UPDATE: Pag-download sa settings gikan sa network?
   CUSTOMIZED_SETTINGS: Gipahiangay nga setting
   DOWNLOADED_DEFAULTS: Na-download nga default
-  AUTO_START_IN_N_SECS: Awtomatik nga pagsugod sa% i …
+  AUTO_START_IN_N_SECS: Awtomatik nga pagsugod sa %i …
   AUTOSTARTLAST: Auto start
   HINT_AUTOSTARTLAST: Bililhon sa segundo, 0 aron dili paganahon ang pagsugod sa awto
   PS2LOGO:
@@ -354,8 +354,8 @@ translations:
   PARENLOCK_DISABLE_WARNING: Wala’y kaputli ang lock sa ginikanan.
   BUILD_DETAILS: 'Opsyon sa build:'
   PARENLOCK_INVALID_PASSWORD: Sayop - dili magamit ang kini nga password.
-  ERR_VMC_FRAGMENTED_CONTINUE: Ang VMC% s file nabahinbahin. Padayon sa Memory Card
-    sa slot% d?
+  ERR_VMC_FRAGMENTED_CONTINUE: Ang VMC %s file nabahinbahin. Padayon sa Memory Card
+    sa slot %d?
   AUDIO_SETTINGS: Setting sa Audio
   SFX: Epekto sa Tingog
   BOOT_SND: Tunog sa Boot
