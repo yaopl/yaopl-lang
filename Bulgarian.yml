@@ -486,3 +486,19 @@ translations:
   UDPBD_SMB_ACTIVE:
   - untranslated
   - original: The network adapter is used by SMB. Restart OPL to use UDPBD.
+  PADMACRO_REMAP:
+  - untranslated
+  - original: Button Remap
+  HINT_PADMACRO_REMAP:
+  - untranslated
+  - original: Per game only. Swaps buttons of a DS3/DS4 on PADEMU, not of a pad in
+      the controller port.
+  PADMACRO_REMAP_TRIGGERS_FACE:
+  - untranslated
+  - original: L2/R2 <-> Square/Cross
+  PADMACRO_REMAP_TRIGGERS_SHOULDERS:
+  - untranslated
+  - original: L2/R2 <-> L1/R1
+  BOTH:
+  - untranslated
+  - original: Both
