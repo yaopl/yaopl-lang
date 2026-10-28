@@ -27,14 +27,18 @@ jobs:
       - name: Compile
         run: make --trace languages
 
+      # Ready = the share of strings that are translated or intentionally the same, rounded down. The table
+      # is in the format of the Translations page of YAOPL's documentation (docs/translations.md).
       - name: Untranslated strings per language
         run: |
-          echo "| Language | Untranslated |" >> "$GITHUB_STEP_SUMMARY"
-          echo "| --- | --- |" >> "$GITHUB_STEP_SUMMARY"
+          total=$(python3 -c "import yaml; print(len(yaml.safe_load(open('lng_tmpl/_base.yml', encoding='utf-8'))['gui_strings']))")
+          echo "| Language | Untranslated | Ready |" >> "$GITHUB_STEP_SUMMARY"
+          echo "| --- | ---: | ---: |" >> "$GITHUB_STEP_SUMMARY"
           for f in lng_src/[A-Z]*.yml; do
             n=$(basename "$f" .yml)
             [ "$n" = English ] && continue
-            echo "| $n | $(grep -c -- '- untranslated' "$f") |" >> "$GITHUB_STEP_SUMMARY"
+            u=$(grep -c -- '- untranslated' "$f" || true)
+            echo "| $n | $u | $(( (total - u) * 100 / total ))% |" >> "$GITHUB_STEP_SUMMARY"
           done
 
       - uses: actions/upload-artifact@v4
