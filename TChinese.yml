@@ -141,7 +141,7 @@ translations:
   VMC_FILE_EXISTS: VMC 檔案已存在
   VMC_FILE_ERROR: '"無效的 VMC 檔案, 大小有誤"'
   VMC_FILE_NEW: 需要建立VMC 檔案
-  ERR_VMC_CONTINUE: 訪問VMC %s 出錯。繼續使用插槽%d中的記憶卡 %d?
+  ERR_VMC_CONTINUE: 訪問VMC %s 出錯。繼續使用插槽%d中的記憶卡?
   AUTOREFRESH: 自動重新整理
   ABOUT: 關於
   DEVS: 程序
