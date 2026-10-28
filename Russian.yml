@@ -53,7 +53,7 @@ translations:
   LOAD_FROM_DISC: Загрузка с диска
   PLEASE_WAIT: Пожалуйста, подождите
   ERROR_LOADING_ID: Ошибка загрузки Game ID
-  AUTOSORT: Автоматическая прокрутка
+  AUTOSORT: Автоматическая сортировка
   ERR_LOADING_LANGFILE: Ошибка загрузки языкового файла
   DEBUG: Отладочные цвета
   NO_CONTROLLER: Контроллер не обнаружен, ожидание…
@@ -73,7 +73,7 @@ translations:
   STARTNBD: Запуск NBD сервера
   STARTINGNBD: NBD сервер запускается…
   RUNNINGNBD: NBD сервер запущен…
-  STARTFAILNBD: Нажмите кнопку [X], чтобы прервать работу NBD сервера
+  STARTFAILNBD: Не удалось запустить NBD сервер.
   UNLOADNBD: Остановка NBD сервера…
   EXITTO: ELF при вызове IGR
   BGCOLOR: Цвет фона
@@ -109,14 +109,14 @@ translations:
   GFX_SETTINGS: Настройки экрана
   ENABLE_WRITE: Операции записи
   LASTPLAYED: Запоминать последнюю игру
-  SELECTBUTTON: Кнопка выбор
+  SELECTBUTTON: Кнопка выбора
   ERR_FRAGMENTED: Ошибка, игра фрагментирована
   ERR_FILE_INVALID: Ошибка, невозможно запустить объект!
   TEST: Проверка изменений
   HINT_GUEST: Оставьте пустым для гостевого доступа
   HINT_MODE1: Аккуратное чтение
   HINT_MODE2: Режим синхронизации
-  HINT_MODE3: Разблокировать системные вызовы
+  HINT_MODE3: Снять перехват системных вызовов
   HINT_MODE4: Пропуск видео
   HINT_MODE5: Эмулировать DVD-DL
   HINT_MODE6: Отключить использование IGR
@@ -139,14 +139,14 @@ translations:
   AUTOREFRESH: Автоматическое обновление
   ABOUT: О программе
   DEVS: Кодеры
-  QANDA: Гарантия качества
+  QANDA: Тестирование
   BDM_PREFIX: Префикс пути для BDM
   HINT_EXITPATH: Загрузить другой ELF, после IGR
   HINT_SPINDOWN: Значение в минутах, 0 для отключения функции
   HDD_SPINDOWN: Автоматическое отключение HDD
   VMODE: Видеорежим
   UICOLOR: Цвет текста
-  SELCOLOR: Выбранный цвет
+  SELCOLOR: Цвет выделения
   RESETCOLOR: Сбросить цвета
   INFO: Инфо
   ALTSTARTUP: Пользовательский ELF
@@ -195,26 +195,26 @@ translations:
   CHEATMODEAUTO: Автоматический выбор читов
   CHEATMODESELECT: Выбрать чит для игры
   ERR_CHEATS_LOAD_FAILED: Ошибка, файл с читами не загружен
-  NO_CHEATS_FOUND: Не найдено ни читы
+  NO_CHEATS_FOUND: Читы не найдены.
   DL_DEFAULTS: Загрузка стандартных
   NET_UPDATE: Обновление из Интернет
   NET_UPDATE_ALL: Перезаписывать существующие настройки
   NET_UPDATE_FAILED: Не удалось загрузить.
-  NET_UPDATE_CONN_FAILED: Не удалось соединится с сервером.
+  NET_UPDATE_CONN_FAILED: Не удалось соединиться с сервером.
   NET_UPDATE_DONE: Обновление завершено.
   NET_UPDATE_CANCELLED: Обновление отменено.
   CONFIRMATION_SETTINGS_UPDATE: Загрузить настройки из Интернет?
   CUSTOMIZED_SETTINGS: Пользовательские настройки
   DOWNLOADED_DEFAULTS: Загрузка Стандартных
-  AUTO_START_IN_N_SECS: Автозапуск через %i s…
+  AUTO_START_IN_N_SECS: Автозапуск через %i с…
   AUTOSTARTLAST: Автозапуск
-  HINT_AUTOSTARTLAST: Значение в секундах(ы), 0 чтобы выключить автопуск…
+  HINT_AUTOSTARTLAST: Значение в секундах, 0 чтобы выключить автозапуск.
   PS2LOGO: Логотип PS2
   HINT_PS2LOGO: Отображается при совпадении регионов диска и консоли.
   PADEMUCONFIG: Настроить PADEMU
   PADEMU_SETTINGS: Настройки Pad эмулятора
-  PADEMU_ENABLE: Эмуляция котнтроллеров
-  HINT_PADEMU_ENABLE: Вкл/вык эмуляцию контроллеров для выбранной игры.
+  PADEMU_ENABLE: Эмуляция контроллеров
+  HINT_PADEMU_ENABLE: Вкл/выкл эмуляцию контроллеров для выбранной игры.
   PADEMU_MODE: Режим эмуляции контроллеров
   HINT_PADEMU_MODE: Выбрать режим эмуляции контроллеров.
   DS34USB_MODE:
@@ -226,16 +226,16 @@ translations:
   PADPORT: 'Настройки для порта:'
   HINT_PAD_PORT: Выбрать настройки для порта Pad эмулятора.
   PADEMU_PORT: Эмуляция
-  HINT_PADEMU_PORT: Вкл/вык эмуляцию контроллеров для выбранного порта.
+  HINT_PADEMU_PORT: Вкл/выкл эмуляцию контроллеров для выбранного порта.
   PADEMU_VIB: Вибрация
-  HINT_PADEMU_VIB: Вкл/вык вибрацию в выбранном порте Pad эмулятора.
+  HINT_PADEMU_VIB: Вкл/выкл вибрацию в выбранном порту Pad эмулятора.
   USBDG_MAC: 'MAC-адрес USB Bluetooth адаптера:'
   PAD_MAC: 'DS контроллер подключился к MAC-адресу:'
   PAIR: Синхронизация
   PAIR_PAD: Синхронизировать DS контроллер
   HINT_PAIRPAD: Синхронизировать DS контроллер с MAC-адресом Bluetooth адаптера.
   NOT_CONNECTED: Не подключено
-  BTINFO: Информация о Bluetooth адаптер
+  BTINFO: Информация о Bluetooth адаптере
   HINT_BTINFO: Показать больше информации и поддерживаемые функции
   HCIVER: 'HCI версия:'
   LMPVER: 'LMP версия:'
@@ -247,12 +247,12 @@ translations:
   BT_NOTSUPPORTED: Bluetooth адаптер может работать неправильно с DS3/DS4 контроллерами.
   MTAP_ENABLE: Эмуляция Multitap
   HINT_MTAP_ENABLE: Вкл/выкл эмуляцию Multitap для выбранной игры.
-  MTAP_PORT: 'Эмуляция Multitap на порте:'
+  MTAP_PORT: 'Эмуляция Multitap на порту:'
   HINT_MTAP_PORT: Выбрать порт для Multitap эмуляции.
   PADEMU_WORKAROUND: Временное решение для неоригинальных DS3
   HINT_PADEMU_WORKAROUND: Некоторые неоригинальные DS3 требуют особый режим, включаемый
     этой опцией.
-  GSM_FIELD_FIX: Эмулировать ОБЛАСТЬ обзора
+  GSM_FIELD_FIX: Эмулировать смену полей (FIELD)
   HINT_GSM_FIELD_FIX: Исправление для игр, где есть проблема с прогрессивным режимом.
   PARENLOCKCONFIG: Настроить родительский контроль
   PARENLOCK_PASSWORD: Пароль для родительского контроля
@@ -265,7 +265,7 @@ translations:
   ERR_VMC_FRAGMENTED_CONTINUE: VMC %s файл фрагментирован. Продолжить с картой памяти
     в слоте %d?
   AUDIO_SETTINGS: Настройки звука
-  SFX: Звуковый эффекты
+  SFX: Звуковые эффекты
   BOOT_SND: Звук загрузки
   SFX_VOLUME: Громкость звуковых эффектов
   BOOT_SND_VOLUME: Громкость звука загрузки
