@@ -257,7 +257,7 @@ translations:
   PARENLOCK_DISABLE_WARNING: パレンタルロックは無効です
   BUILD_DETAILS: ビルドオプション：
   PARENLOCK_INVALID_PASSWORD: エラー - このパスワードは使用できません
-  ERR_VMC_FRAGMENTED_CONTINUE: VMC ％s ファイルは破損しています。 スロット ％d のメモリカードに保存しますか？
+  ERR_VMC_FRAGMENTED_CONTINUE: VMC %s ファイルは破損しています。 スロット %d のメモリカードに保存しますか？
   AUDIO_SETTINGS: オーディオ設定
   SFX: 効果音
   BOOT_SND: 起動音
