@@ -311,7 +311,7 @@ translations:
   - original: Language loaded from %s
   PARTITION_NOTIFICATION:
   - untranslated
-  - original: '%s partíció mountolva.'
+  - original: '%s partition mounted.'
   OPTIONS: Opciók
   GAME_SETTINGS_SAVED: Játékbeállítások elmentve.
   GAME_SETTINGS_REMOVED: '%s beállítások eltávolítva'
@@ -329,7 +329,7 @@ translations:
   INFO_DESCRIPTION: Leírás
   BLOCKDEVICE_SETTINGS:
   - untranslated
-  - original: Block Devices
+  - original: BDM Devices
   CONTROLLER_SETTINGS: Kontrollerbeállítások
   HINT_BDM_START: A Block Device Manager ki/bekapcsolása.
   HINT_BLOCK_DEVICES: Ki/bekapcsolja a Block eszközöket (pl. USB).
@@ -341,18 +341,18 @@ translations:
   PADMACRO_ENABLE: Padmakrók
   PADMACRO_SLOWDOWN:
   - untranslated
-  - original: 'Analog slow-down:'
+  - original: 'Analog Slow-Down:'
   HINT_PADMACRO_SLOWDOWN_AXIS:
   - untranslated
-  - original: Reduce range of analog stick when button is pressed
+  - original: Reduce the range of analog stick when button is pressed.
   LEFT_ANALOG: Bal kar
   RIGHT_ANALOG: Jobb kar
   PADMACRO_INVERT_AXIS:
   - untranslated
-  - original: 'Analog axis invert:'
+  - original: 'Analog Axis Invert:'
   HINT_PADMACRO_INVERT_AXIS:
   - untranslated
-  - original: Invert analog stick axis
+  - original: Inverts the axis of selected analog stick.
   TURBO_SPEED: Turbo gomb sebessége
   HINT_TURBO_SPEED: Milyen gyorsan nyomkodja a gombot, ha a turbó aktív
   ACT_WHILE_PRESSED: Amíg a gomb lenyomva van

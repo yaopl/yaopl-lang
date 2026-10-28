@@ -299,16 +299,16 @@ translations:
   - original: Configure PADMACRO
   PADMACRO_SETTINGS:
   - untranslated
-  - original: Pad macro Settings
+  - original: Pad Macro Settings
   PADMACRO_ENABLE:
   - untranslated
   - original: Pad macros
   PADMACRO_SLOWDOWN:
   - untranslated
-  - original: 'Analog slow-down:'
+  - original: 'Analog Slow-Down:'
   HINT_PADMACRO_SLOWDOWN_AXIS:
   - untranslated
-  - original: Reduce range of analog stick when button is pressed
+  - original: Reduce the range of analog stick when button is pressed.
   LEFT_ANALOG: 左摇杆
   RIGHT_ANALOG: 右摇杆
   PADMACRO_INVERT_AXIS: 摇杆反转：
@@ -316,13 +316,13 @@ translations:
   TURBO_SPEED: 连发键速度
   HINT_TURBO_SPEED:
   - untranslated
-  - original: How fast to press the button when turbo is active
+  - original: How fast the button is pressed when turbo is active.
   ACT_WHILE_PRESSED:
   - untranslated
-  - original: While button pressed
+  - original: While Button Pressed
   ACT_TOGGLED:
   - untranslated
-  - original: Toggled by button
+  - original: Toggled By Button
   LANGUAGE_JAPANESE: 日文
   LANGUAGE_ENGLISH: 英文
   LANGUAGE_FRENCH: 法文

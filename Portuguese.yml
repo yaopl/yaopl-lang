@@ -325,7 +325,7 @@ translations:
   - original: Pad macros
   PADMACRO_SLOWDOWN:
   - untranslated
-  - original: 'Analog slow-down:'
+  - original: 'Analog Slow-Down:'
   HINT_PADMACRO_SLOWDOWN_AXIS: Reduz o alcance do analógico quando o botão é pressionado
   LEFT_ANALOG: Analógico Esquerdo
   RIGHT_ANALOG: Analógico Direito

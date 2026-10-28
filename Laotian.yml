@@ -469,7 +469,7 @@ translations:
   - original: Description
   BLOCKDEVICE_SETTINGS:
   - untranslated
-  - original: Block Devices
+  - original: BDM Devices
   CONTROLLER_SETTINGS:
   - untranslated
   - original: Controller Settings
@@ -478,7 +478,7 @@ translations:
   - original: Turn on/off Block Device Manager.
   HINT_BLOCK_DEVICES:
   - untranslated
-  - original: Turn on/off Block Devices (e.g. USB).
+  - original: Turn on/off BDM Devices (USB/MX4SIO/ILINK/HDD).
   USB_GAMES:
   - untranslated
   - original: USB Games
@@ -493,40 +493,40 @@ translations:
   - original: Configure PADMACRO
   PADMACRO_SETTINGS:
   - untranslated
-  - original: Pad macro Settings
+  - original: Pad Macro Settings
   PADMACRO_ENABLE:
   - untranslated
   - original: Pad macros
   PADMACRO_SLOWDOWN:
   - untranslated
-  - original: 'Analog slow-down:'
+  - original: 'Analog Slow-Down:'
   HINT_PADMACRO_SLOWDOWN_AXIS:
   - untranslated
-  - original: Reduce range of analog stick when button is pressed
+  - original: Reduce the range of analog stick when button is pressed.
   LEFT_ANALOG:
   - untranslated
-  - original: Left stick
+  - original: Left Stick
   RIGHT_ANALOG:
   - untranslated
-  - original: Right stick
+  - original: Right Stick
   PADMACRO_INVERT_AXIS:
   - untranslated
-  - original: 'Analog axis invert:'
+  - original: 'Analog Axis Invert:'
   HINT_PADMACRO_INVERT_AXIS:
   - untranslated
-  - original: Invert analog stick axis
+  - original: Inverts the axis of selected analog stick.
   TURBO_SPEED:
   - untranslated
-  - original: Turbo button speed
+  - original: Turbo Button Speed
   HINT_TURBO_SPEED:
   - untranslated
-  - original: How fast to press the button when turbo is active
+  - original: How fast the button is pressed when turbo is active.
   ACT_WHILE_PRESSED:
   - untranslated
-  - original: While button pressed
+  - original: While Button Pressed
   ACT_TOGGLED:
   - untranslated
-  - original: Toggled by button
+  - original: Toggled By Button
   LANGUAGE_JAPANESE:
   - untranslated
   - original: JAPANESE
@@ -565,13 +565,13 @@ translations:
   - original: SIMPLIFIED CHINESE
   OSD_SETTINGS:
   - untranslated
-  - original: OSD settings
+  - original: OSD Settings
   OSD_SETTINGS_LNG:
   - untranslated
   - original: OSD Language
   ENABLE_LNG:
   - untranslated
-  - original: Change language
+  - original: Enable
   BGM:
   - untranslated
   - original: Background Music

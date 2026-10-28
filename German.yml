@@ -297,13 +297,13 @@ translations:
   - original: Configure PADMACRO
   PADMACRO_SETTINGS:
   - untranslated
-  - original: Pad macro Settings
+  - original: Pad Macro Settings
   PADMACRO_ENABLE:
   - untranslated
   - original: Pad macros
   PADMACRO_SLOWDOWN:
   - untranslated
-  - original: 'Analog slow-down:'
+  - original: 'Analog Slow-Down:'
   HINT_PADMACRO_SLOWDOWN_AXIS: Reichweite des Analogsticks bei Tastendruck verringern
   LEFT_ANALOG: Linker Stick
   RIGHT_ANALOG: Rechter Stick
