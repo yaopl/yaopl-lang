@@ -1,7 +1,8 @@
 name: CI-compile
 
 # Compiles every language against YAOPL's string list (lng_tmpl/_base.yml) and keeps the .lng files as
-# the compiled-languages artifact, for testing on a console.
+# the compiled-languages artifact, for testing on a console. Fails if a translated string does not keep
+# the printf placeholders of the English one (.github/check_placeholders.py).
 on:
   push:
   pull_request:
@@ -40,3 +41,7 @@ jobs:
         with:
           name: compiled-languages
           path: lng/*.lng
+
+      # Last, so that a failing check still leaves the artifact for testing.
+      - name: Placeholders match English
+        run: python3 lng_src/.github/check_placeholders.py lng_tmpl/_base.yml lng_src/[A-Z]*.yml

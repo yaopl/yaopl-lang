@@ -38,7 +38,8 @@ colon. Use `same` for a string that should stay in English (device names, for ex
    little room, and long hints are cut off.
 3. Put the text in quotes if it contains a colon followed by a space, or starts with `%`, `[`, `{`, `'`
    or `"`.
-4. The CI of the pull request compiles every language against YAOPL; it must pass.
+4. The CI of the pull request compiles every language against YAOPL and checks that each translated string
+   has the same placeholders as the English one, in the same order; it must pass.
 
 To see it on a console: the CI run of the pull request has a `compiled-languages` artifact with the `.lng`
 files. Copy `lang_<Language>.lng` (and the font, if the language has one) to the `LNG` folder of a device or
