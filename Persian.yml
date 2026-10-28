@@ -317,7 +317,7 @@ translations:
   - untranslated
   - original: Options
   GAME_SETTINGS_SAVED: ﺗﻨﻈﻴﻤﺎﺕ ﺑﺎﺯﻯ ﺫﺧﻴﺮﻩ ﺷﺪ
-  GAME_SETTINGS_REMOVED: '%s ﭘﺎﮎ ﺷﺪ %s ﺗﻨﻈﻴﻤﺎﺕ'
+  GAME_SETTINGS_REMOVED: 'ﭘﺎﮎ ﺷﺪ %s ﺗﻨﻈﻴﻤﺎﺕ'
   NET_UPDATE_HINT: ﺭﻭ ﻧﻮﻳﺴﻰ ﺗﻨﻈﻴﻤﺎﺕ ﺳﺎﺯﮔﺎﺭ ﺑﺎ ﺑﺎﺯﻯ ﻫﻨﮕﺎﻢ ﻓﻌﺎﻝ ﺑﻮﺩﻥ
   SETTINGS_SOURCE: ﺣﺎﻟﺖ ﺗﻨﻈﻴﻤﺎﺕ
   GLOBAL_SETTINGS: ﺳﺮﺍﺭﻯ
