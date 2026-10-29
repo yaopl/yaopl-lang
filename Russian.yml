@@ -364,10 +364,4 @@ translations:
   HINT_UDPBD: Диск раздаёт ПК по локальной сети (udpbd-server). Нужен статический IP PS2; SMB выключен, пока включён UDPBD.
   NETWORK_UDPBD_ACTIVE: Сетевой адаптер занят UDPBD. Выключите UDPBD и перезапустите OPL, чтобы работали SMB и сеть.
   UDPBD_SMB_ACTIVE: Сетевой адаптер занят SMB. Перезапустите OPL, чтобы использовать UDPBD.
-  PADMACRO_REMAP: Переназначение кнопок
-  HINT_PADMACRO_REMAP: Только для отдельной игры. Меняет местами кнопки DS3/DS4 на PADEMU, а не геймпада в порту контроллера.
-  PADMACRO_REMAP_TRIGGERS_FACE: L2/R2 <-> Квадрат/Крест
-  PADMACRO_REMAP_TRIGGERS_SHOULDERS:
-  - same
-  - original: L2/R2 <-> L1/R1
   BOTH: Оба
