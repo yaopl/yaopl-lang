@@ -550,3 +550,12 @@ translations:
   BOTH:
   - untranslated
   - original: Both
+  ERR_VMC_FRAGMENTS_CONTINUE:
+  - untranslated
+  - original: VMC %s is in %d fragments. Continue with Memory Card in slot %d?
+  VMC_DEFRAGMENT_HINT:
+  - untranslated
+  - original: To defragment the VMC, move the file to a PC and copy it back.
+  UDPBD_READ_ONLY_VMC:
+  - untranslated
+  - original: This UDPBD server is read-only, so no VMC can be used on it; the game saves to the real memory card.
